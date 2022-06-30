@@ -1,30 +1,122 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pequeñas Dulzuras | productos</title>
 
+    <!-- Boostrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Mi CSS-->
     <link rel="stylesheet" href="../css/style.css">
 
+    
 </head>
 
 <body>
+
+    <div class="container-fluid"> 
+        <div class="row">
+
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand"></a>    
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="Search" placeholder="Buscar en la tienda" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+
     <header>
-        <h1>Productos</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./mediosdepago.html">Medios de pago</a></li>
-                <li><a href="./sobremi.html">Sobre mi</a></li>      
-            </ul>
-        </nav>
+        <h1>Productos</h1>   
     </header>
 
-    <main>
-        <section class="Tortas de Cumpleaños"></section>
+    <ul class="nav justify-content-center"> 
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./sobremi.html">Sobre Mi</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="./mediosdepago.html">Medios de Pago</a>
+        </li>
+</ul>
+
+<!-- 
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./mediosdepago.html">Medios de pago</a></li>
+            <li><a href="./sobremi.html">Sobre mi</a></li>      
+        </ul>
+    </nav>
+-->
+
+    <main>     
+                <div class="col-sm-12 col-md-4 col-xl-4"> 
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="../assets/image/torta.JPEG" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h2 class="card-title">Torta de Cumpleaños</h2>
+                                    <h3>Diseños a eleccion</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laudantium aliquam vitae quas delectus obcaecati temporibus et pariatur aliquid, repellat, tenetur unde nisi optio laboriosam quis explicabo eveniet dolorum dolor!</p>
+                                    <button>Consultar precio</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-xl-4">
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="../assets/image/tarta.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h2 class="card-title">Tartas</h2>
+                                    <h3>Diseños a eleccion</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laudantium aliquam vitae quas delectus obcaecati temporibus et pariatur aliquid, repellat, tenetur unde nisi optio laboriosam quis explicabo eveniet dolorum dolor!</p>
+                                    <button>Consultar precio</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-12 col-md-4 col-xl-4"> 
+                    <div class="card mb-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="../assets/image/cupcakes.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card-body">
+                                    <h2 class="card-title">Cookies y Cupcakes</h2>
+                                    <h3>Diseños a eleccion</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laudantium aliquam vitae quas delectus obcaecati temporibus et pariatur aliquid, repellat, tenetur unde nisi optio laboriosam quis explicabo eveniet dolorum dolor!</p>
+                                    <button>Consultar precio</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+  <!--
+          <section class="Tortas de Cumpleaños"></section>
             <h2>Tortas de cumpleaños</h2>
                 <article>
                 <div>
@@ -34,6 +126,7 @@
                 </div>
                 </article>
         </section>
+
 
         <section class="Tartas"></section>
              <h2>Tartas</h2>
@@ -56,17 +149,36 @@
                 </div>
                 </article>
         </section>
-
         <img src="../assets/image/torta.JPEG" alt="Torta Bob">
+    -->    
+
     </main>
 
+    <footer>
+        <div class="container-fluid">
+            <div class="row"> 
+                <h5>Instagram</h5>
+                    <div><a href="instagram">instagram</a></div>
+                <h5>¡Contactanos!</h5>
+                    <p>Hacenos tu consulta por Whatsapp al 11-1111-1111</p>
+            </div>       
+        </div>
+    </footer>
 
+    <!--
     <footer>
         <nav>
             <div><a href="instagram">instagram</a></div>
         </nav>
     </footer>
+    -->
+    
 
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</div>         
+</div>
 </body>
 
 </html>
