@@ -21,24 +21,21 @@ h1 {
   margin: 0;
   padding: 0;
 }
-
 .menu li {
   display: inline-block;
 }
-
 .menu li a {
   padding: 10px 20px;
   display: inline-block;
   color: black 249, 221, 177;
 }
-
 .menu li a:hover {
   background-color: rgb(242, 177, 208);
   color: rgb(14, 14, 15);
 }
 
 h2 {
-  color: hotpink;
+  color: blue;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -47,7 +44,7 @@ h3 {
 }
 
 h5 {
-  color: hotpink;
+  color: blue;
   font-family: "roboto mono";
 }
 

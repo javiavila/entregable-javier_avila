@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap");
+@import "colores";
 * {
   margin: 0;
   padding: 0;
@@ -15,30 +16,27 @@ h1 {
 }
 
 .menu {
-  width: 100%;
-  background-color: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  display: inline-block;
-}
-
-.menu li a {
-  padding: 10px 20px;
-  display: inline-block;
-  color: black 249, 221, 177;
-}
-
-.menu li a:hover {
-  background-color: rgb(242, 177, 208);
-  color: rgb(14, 14, 15);
+    width: 100%;
+    background-color: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+        li {
+            display: inline-block; 
+            a {
+                padding: 10px 20px;
+                display: inline-block;
+                color: black 249, 221, 177;
+                    &:hover{
+                    background-color: rgb(242, 177, 208);
+                    color: rgb(14, 14, 15);
+                    }
+            }
+        }
 }
 
 h2 {
-  color: hotpink;
+  color: $colorPrimario;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -47,7 +45,7 @@ h3 {
 }
 
 h5 {
-  color: hotpink;
+  color: $colorPrimario;
   font-family: "roboto mono";
 }
 
